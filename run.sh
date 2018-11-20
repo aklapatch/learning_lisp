@@ -3,7 +3,7 @@
 for file in *.lisp
 do
     echo 
-    echo "Running $file"
+    echo "Running $file =================================================="
+	echo 
     clisp $file
-    echo
 done
